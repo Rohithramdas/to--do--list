@@ -1,0 +1,109 @@
+.fulldiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200rem;
+    background-color: rgba(231, 209, 168, 0.766);
+}
+.screen-backdrop{
+    z-index: -1;
+    width: 135%;
+    height: 25rem;
+    position: absolute;
+    border-radius: 0 0 50% 50%;
+    background-color: rgba(255, 166, 0, 0.316);
+}
+.headingdiv{
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+font-size: 2rem;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; Font family selection */
+    color: white;
+    margin: 0; /* Remove default margin */
+    line-height: 1; 
+    padding: 85px;
+}
+.inputdiv{
+    text-align: center; /* Align text horizontally centered */
+    margin-left: 3.4rem; /* Adjust margin as needed */
+  padding-bottom: 2.8rem;
+}
+.inputdiv input[type="text"] {
+    font-family: 'Comic Sans MS', sans-serif;
+font-size: 1.4rem;
+text-align: center;
+    width: 22%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px dotted #280909af; 
+    /* border-bottom: 1px solid ; */
+    outline: none; /* Remove default focus outline */
+    padding-bottom: 5px; /* Adjust spacing between text and underline */
+}
+.button{
+    text-align: center;
+    width: 50px; /* Set the desired width */
+    height: 50px;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 100%;
+   
+    
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: rgba(26, 13, 6, 0.626);
+}
+.list{
+ 
+    text-align: center; /* Center text */
+    list-style-position: inside; /* Position bullet points inside */
+    padding-right: 4rem;
+    font-size: 1.8rem;
+    align-items: center; 
+    text-align: center; /* Center-align the list items */
+    list-style-position: inside;
+    font-family: 'Comic Sans MS', sans-serif;
+color: rgba(26, 13, 6, 0.582);
+ /* Set the desired width of the div */
+height: 300px; /* Set the desired height of the div */
+overflow: auto;
+}
+
+.list li {
+    text-align: center; /* Center text */
+    list-style-position: inside; /* Position bullet points inside */
+}
+.delete{
+    
+    /* font-family: 'Comic Sans MS', sans-serif; */
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bolder;
+    height: 2.4rem;
+    width: 2.4rem;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.689);
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.deleti{
+    
+    /* font-family: 'Comic Sans MS', sans-serif; */
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bolder;
+    height: 2.4rem;
+    width: 2.4rem;
+    color: aliceblue;
+    background-color: rgba(55, 134, 10, 0.689);
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+body{
+    
+    /* background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); */
+    background-image: url("https://www.transparenttextures.com/patterns/cutcube.png");
+}
